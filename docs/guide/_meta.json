@@ -1,1 +1,16 @@
-["index"]
+[
+  "index",
+  "about",
+  {
+    "type": "file",
+    "name": "api",
+    "label": "API 文件"
+  },
+  {
+    "type": "dir",
+    "name": "tutorials",
+    "label": "教學",
+    "collapsible": true,
+    "collapsed": false
+  }
+]

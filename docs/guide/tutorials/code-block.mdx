@@ -1,0 +1,25 @@
+# code block
+
+```js title="hello.js"
+console.log('Hello World');
+```
+
+```jsx title="hello.jsx"
+export default function Hello() {
+  return <div>Hello World</div>;
+}
+```
+
+```tsx title="hello.tsx"
+type Props = {
+  name: string;
+};
+
+const Hello = ({ name }: Props) => {
+  return <div>Hello {name}</div>;
+};
+```
+
+```ts title="hello.ts"
+const add = (a: number, b: number) => a + b;
+```

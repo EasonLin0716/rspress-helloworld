@@ -1,1 +1,10 @@
-["index", "use-jsx", "code-block"]
+[
+  "index",
+  "use-jsx",
+  {
+    "type": "file",
+    "name": "code-block",
+    "label": "如何使用 Code Block"
+  },
+  "warning-tip"
+]

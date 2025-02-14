@@ -1,14 +1,10 @@
+---
+title: How code block works
+description: How to use code block in markdown
+---
+
+
 # code block
-
-```js title="hello.js"
-console.log('Hello World');
-```
-
-```jsx title="hello.jsx"
-export default function Hello() {
-  return <div>Hello World</div>;
-}
-```
 
 ```tsx title="hello.tsx"
 type Props = {
@@ -20,6 +16,14 @@ const Hello = ({ name }: Props) => {
 };
 ```
 
-```ts title="hello.ts"
+```ts title="hello.ts" {2}
 const add = (a: number, b: number) => a + b;
+const result = add(1, 2);
+console.log(result);
+```
+
+```dart title="hello.dart"
+void main() {
+  print('Hello, World!');
+}
 ```
